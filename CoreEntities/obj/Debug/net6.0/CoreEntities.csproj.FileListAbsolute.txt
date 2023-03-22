@@ -1,0 +1,12 @@
+C:\Market\NetMarket\CoreEntities\bin\Debug\net6.0\CoreEntities.deps.json
+C:\Market\NetMarket\CoreEntities\bin\Debug\net6.0\CoreEntities.dll
+C:\Market\NetMarket\CoreEntities\bin\Debug\net6.0\CoreEntities.pdb
+C:\Market\NetMarket\CoreEntities\obj\Debug\net6.0\CoreEntities.csproj.AssemblyReference.cache
+C:\Market\NetMarket\CoreEntities\obj\Debug\net6.0\CoreEntities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Market\NetMarket\CoreEntities\obj\Debug\net6.0\CoreEntities.AssemblyInfoInputs.cache
+C:\Market\NetMarket\CoreEntities\obj\Debug\net6.0\CoreEntities.AssemblyInfo.cs
+C:\Market\NetMarket\CoreEntities\obj\Debug\net6.0\CoreEntities.csproj.CoreCompileInputs.cache
+C:\Market\NetMarket\CoreEntities\obj\Debug\net6.0\CoreEntities.dll
+C:\Market\NetMarket\CoreEntities\obj\Debug\net6.0\refint\CoreEntities.dll
+C:\Market\NetMarket\CoreEntities\obj\Debug\net6.0\CoreEntities.pdb
+C:\Market\NetMarket\CoreEntities\obj\Debug\net6.0\ref\CoreEntities.dll

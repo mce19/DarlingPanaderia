@@ -1,0 +1,17 @@
+C:\Market\NetMarket\BisnessLogic\bin\Debug\net6.0\BisnessLogic.deps.json
+C:\Market\NetMarket\BisnessLogic\bin\Debug\net6.0\BisnessLogic.runtimeconfig.json
+C:\Market\NetMarket\BisnessLogic\bin\Debug\net6.0\BisnessLogic.dll
+C:\Market\NetMarket\BisnessLogic\bin\Debug\net6.0\BisnessLogic.pdb
+C:\Market\NetMarket\BisnessLogic\bin\Debug\net6.0\CoreEntities.dll
+C:\Market\NetMarket\BisnessLogic\bin\Debug\net6.0\CoreEntities.pdb
+C:\Market\NetMarket\BisnessLogic\obj\Debug\net6.0\BisnessLogic.csproj.AssemblyReference.cache
+C:\Market\NetMarket\BisnessLogic\obj\Debug\net6.0\BisnessLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Market\NetMarket\BisnessLogic\obj\Debug\net6.0\BisnessLogic.AssemblyInfoInputs.cache
+C:\Market\NetMarket\BisnessLogic\obj\Debug\net6.0\BisnessLogic.AssemblyInfo.cs
+C:\Market\NetMarket\BisnessLogic\obj\Debug\net6.0\BisnessLogic.csproj.CoreCompileInputs.cache
+C:\Market\NetMarket\BisnessLogic\obj\Debug\net6.0\BisnessLogic.csproj.CopyComplete
+C:\Market\NetMarket\BisnessLogic\obj\Debug\net6.0\BisnessLogic.dll
+C:\Market\NetMarket\BisnessLogic\obj\Debug\net6.0\refint\BisnessLogic.dll
+C:\Market\NetMarket\BisnessLogic\obj\Debug\net6.0\BisnessLogic.pdb
+C:\Market\NetMarket\BisnessLogic\obj\Debug\net6.0\BisnessLogic.genruntimeconfig.cache
+C:\Market\NetMarket\BisnessLogic\obj\Debug\net6.0\ref\BisnessLogic.dll
