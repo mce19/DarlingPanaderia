@@ -4,6 +4,7 @@ using CoreEntities.Interfaces;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using WebApi.Dtos;
+using WebApi.Middleware;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -21,6 +22,9 @@ builder.Services.AddTransient<IProductoRepository, ProductoRepository>();
 
 var app = builder.Build();
 //creamo la instancia del que va a ejecutar el web api
+app.UseStatusCodePagesWithReExecute("/errors", "?code={0}");
+
+app.UseMiddleware<ExceptionMiddleware>();
 using (var scope = app.Services.CreateScope())
 {
     var services = scope.ServiceProvider; //instancia del servis provaider que nos permite ejecutar la migración  e instanciar el divi context
@@ -38,27 +42,6 @@ using (var scope = app.Services.CreateScope())
         logger.LogError(e, "Error en el proceso de migración");
     }
 }
-//app.Run();
-
-// Configure the HTTP request pipeline.
-
-//var summaries = new[]
-//{
-//    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-//};
-
-//app.MapGet("/weatherforecast", () =>
-//{
-//    var forecast = Enumerable.Range(1, 5).Select(index =>
-//        new WeatherForecast
-//        (
-//            DateTime.Now.AddDays(index),
-//            Random.Shared.Next(-20, 55),
-//            summaries[Random.Shared.Next(summaries.Length)]
-//        ))
-//        .ToArray();
-//    return forecast;
-//});
 
 app.UseRouting(); //permite que ASP.NET Core seleccione el controlador y la acción correctos en función de la solicitud entrante
 
@@ -68,8 +51,3 @@ app.UseEndpoints(endpoints =>
 });
 
 app.Run();
-
-//internal record WeatherForecast(DateTime Date, int TemperatureC, string? Summary)
-//{
-//    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-//}
